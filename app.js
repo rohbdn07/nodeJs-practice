@@ -1,13 +1,20 @@
 const express = require("express");
+const path = require("path");
+
+const filename = path.join(__filename);
+const basename = path.basename(filename);
+
+console.log(filename);
+console.log(basename);
 
 const app = express();
 
 app.get("/", function (req, res) {
-  res.send("hello world 120");
+  res.send("hello world my dear");
 });
 
 app.route("/student").get(function (req, res) {
-  res.send("Welcome back mohit");
+  res.send("Welcome back mr mohit");
 });
 
 app.route("/student/:id").get(function (req, res) {

@@ -1,0 +1,24 @@
+{
+  "name": "nodejs-excercise",
+  "version": "1.0.0",
+  "description": "node practice",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rohbdn07/nodeJs-practice.git"
+  },
+  "author": "Rohit bhandari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rohbdn07/nodeJs-practice/issues"
+  },
+  "homepage": "https://github.com/rohbdn07/nodeJs-practice#readme"
+}
